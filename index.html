@@ -6,14 +6,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap">
-    <style>
-       body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3MU-H_OO4t5TgICd8lfscd6vFlnVE2RcZQ&s");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-    </style>
+    <link rel="stylesheet" href="background.css">
    </head>
    <body>
     <div style="position: relative;
@@ -140,22 +133,7 @@
                 top: 50px;
                 left: 30px;">Giây</p></b>
      </div>
-  <script>
-function ScriptJava() {
-const timeCurrent= new Date();
-const timeTet= new Date("2026-02-17 00:00:00");
-const timeRemaining= timeTet - timeCurrent;
-const ngay= Math.floor(timeRemaining / (1000*60*60*24));
-const gio= Math.floor(timeRemaining / (1000*60*60)%24);
-const phut= Math.floor(timeRemaining / (1000*60)%60);
-const giay= Math.floor(timeRemaining / (1000)%60);
-document.getElementById("Js1").innerText=`${ngay}`;
-document.getElementById("Js2").innerText=`${gio}`;
-document.getElementById("Js3").innerText=`${phut}`;
-document.getElementById("Js4").innerText=`${giay}`;
-}
-setInterval(ScriptJava, 1000);
-  </script>
+  <script src="time.js"></script>
 <div style="display:flex;
             width: 1000px;
             height: 500px;
