@@ -1,6 +1,47 @@
-       body {
+                        /* Set background cho trang web */
+                        body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3MU-H_OO4t5TgICd8lfscd6vFlnVE2RcZQ&s");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+                        }
+.csscount {background: linear-gradient(to bottom right, #e61937, #fe5500);
+                 width: 150px;
+                 height: 225px;
+                 position: absolute;
+                 top: 363px;
+                 left: 930px;
+                 display: flex;
+                 justify-content: center;
+                 border: solid 7px #fed241;
+                 border-radius: 20px;" }
+}
+.countp {
+  text-align: center;
+              color: #fa3333;
+              font-size: 47px;
+              font-family: Arial;
+              margin: 35px;
+              position: absolute;
+              top: 0px;
+              left: 14%;
+              font-family: 'Dancing Script';
+}
+.showTimeValue {font-family: 'Dancing Script';
+                font-size: 48px;
+                color: #fafafa;
+}
+.underShowTimeValue {
+                font-family: 'Dancing Script';
+                font-size: 55px;
+                color: #fafafa;
+                position: absolute;
+                top: 50px;
+                left: 30px;
+}
+.NoiDungChucTet {
+            position: absolute;
+            font-size: 30px;
+            color: #fa2519;
+            font-family: Dancing Script;"
 }
