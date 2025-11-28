@@ -9,129 +9,24 @@
     <link rel="stylesheet" href="background.css">
    </head>
    <body>
-    <div style="position: relative;
-                height: 130px;
-                width: 1000px;
-                background-color: #fafafa;
-                top: 170px;
-                left: 120px;">
-     <b><p style="text-align: center;
-              color: #fa3333;
-              font-size: 47px;
-              font-family: Arial;
-              margin: 35px;
-              position: absolute;
-              top: 0px;
-              left: 14%;
-              font-family: 'Dancing Script';">ĐẾM NGƯỢC ĐẾN TẾT 2026</p></b>
+    <div style="position: relative; height: 130px; width: 1000px; background-color: #fafafa; top: 170px; left: 120px;">
+     <b><p class="countp">ĐẾM NGƯỢC ĐẾN TẾT 2026</p></b>
    </div>  
-        <div style="background: linear-gradient(to bottom right, #e61937, #fe5500);
-                 width: 150px;
-                 height: 225px;
-                 position: absolute;
-                 top: 363px;
-                 left: 210px;
-                 display: flex;
-                 justify-content: center;
-                 border: solid 7px #fed241;
-                 border-radius: 20px;" 
-     onmouseover="this.style.transform='rotate(3deg) scale(1.04)';
-                  this.style.filter='brightness(1.01)';
-                  this.style.transition='transform 0.35s';
-                  this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.32)';"
-     onmouseout="this.style.transform='rotate(0deg) scale(1.00)'; 
-                 this.style.filter='brightness(1.00)';
-                 this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.3)';">
-      <b><p style="font-family:Dancing Script;
-                font-size: 55px;
-                color: #fafafa;" id="Js1"></p></b> <!--Pacifico', cursive;-->
-      <b><p style="font-family: 'Dancing Script';
-                font-size: 55px;
-                color: #fafafa;
-                position: absolute;
-                top: 50px;
-                left: 30px;">Ngày</p></b>
+        <div class="csscount" id="X" style=" left: 210px;">
+      <b><p class="showTimeValue" id="Js1"></p></b>
+      <b><p class="underShowTimeValue">Ngày</p></b>
      </div>
-   <div style="background: linear-gradient(to bottom right, #e61937, #fe5500);
-                 width: 150px;
-                 height: 225px;
-                 position: absolute;
-                 top: 363px;
-                 left: 450px;
-                 display: flex;
-                 justify-content: center;
-                 border: solid 7px #fed241;
-                 border-radius: 20px;" 
-     onmouseover="this.style.transform='rotate(3deg) scale(1.04)';
-                  this.style.filter='brightness(1.01)';
-                  this.style.transition='transform 0.35s';
-                  this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.32)';"
-     onmouseout="this.style.transform='rotate(0deg) scale(1.00)'; 
-                 this.style.filter='brightness(1.00)';
-                 this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.3)';">
-      <b><p style="font-family:Dancing Script;
-                font-size: 55px;
-                color: #fafafa;" id="Js2"></p></b> <!--Pacifico', cursive;-->
-      <b><p style="font-family: 'Dancing Script';
-                font-size: 55px;
-                color: #fafafa;
-                position: absolute;
-                top: 50px;
-                left: 30px;">Giờ</p></b>
+     <div class="csscount" id="X" style=" left: 450px;" >
+      <b><p class="showTimeValue" id="Js2"></p></b>
+      <b><p class="underShowTimeValue">Giờ</p></b>
      </div>
-      <div style="background: linear-gradient(to bottom right, #e61937, #fe5500);
-                 width: 150px;
-                 height: 225px;
-                 position: absolute;
-                 top: 363px;
-                 left: 690px;
-                 display: flex;
-                 justify-content: center;
-                 border: solid 7px #fed241;
-                 border-radius: 20px;" 
-     onmouseover="this.style.transform='rotate(3deg) scale(1.04)';
-                  this.style.filter='brightness(1.01)';
-                  this.style.transition='transform 0.35s';
-                  this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.32)';"
-     onmouseout="this.style.transform='rotate(0deg) scale(1.00)'; 
-                 this.style.filter='brightness(1.00)';
-                 this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.3)';">
-      <b><p style="font-family: Dancing Script;
-                font-size: 45px;
-                color: #fafafa;" id="Js3"></p></b> <!--Pacifico', cursive;-->
-      <b><p style="font-family: 'Dancing Script';
-                font-size: 55px;
-                color: #fafafa;
-                position: absolute;
-                top: 50px;
-                left: 27px;">Phút</p></b>
+      <div class="csscount" id="X" style=" left: 690px;" >
+      <b><p class="showTimeValue" id="Js3"></p></b>
+      <b><p class="underShowTimeValue">Phút</p></b>
      </div>
-     <div style="background: linear-gradient(to bottom right, #e61937, #fe5500);
-                 width: 150px;
-                 height: 225px;
-                 position: absolute;
-                 top: 363px;
-                 left: 930px;
-                 display: flex;
-                 justify-content: center;
-                 border: solid 7px #fed241;
-                 border-radius: 20px;" 
-     onmouseover="this.style.transform='rotate(3deg) scale(1.04)';
-                  this.style.filter='brightness(1.01)';
-                  this.style.transition='transform 0.35s';
-                  this.style.boxShadow='0 12px 24px rgba(0, 0, 0, 0.32)';"
-     onmouseout="this.style.transform='rotate(0deg) scale(1.00)'; 
-                 this.style.filter='brightness(1.00)';
-                 this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.3)';">
-      <b><p style="font-family: 'Dancing Script';
-                font-size: 45px;
-                color: #fafafa;" id="Js4"></p></b> <!--Pacifico', cursive;-->
-      <b><p style="font-family: 'Dancing Script';
-                font-size: 55px;
-                color: #fafafa;
-                position: absolute;
-                top: 50px;
-                left: 30px;">Giây</p></b>
+     <div class="csscount" id="X" style=" left: 930px;">
+      <b><p class="showTimeValue" id="Js4"></p></b>
+      <b><p class="underShowTimeValue">Giây</p></b>
      </div>
   <script src="time.js"></script>
 <div style="display:flex;
@@ -153,20 +48,10 @@
               left: 30px;
               border-radius: 10px;">
 
-  <p style="position: absolute;
-            left: 210px;
-            top: 30px;
-            font-size: 30px;
-            color: #fa2519;
-            font-family: Dancing Script;">
+  <p class="NoiDungChucTet" style="left: 210px; top: 30px;">
     Tết Nguyên đán là một ngày lễ quan trọng nhất trong năm của người Việt. Các phong tục ngày Tết cũng là một nét đẹp văn hóa, các món ăn trong ngày Tết cũng là phong tục truyền thống của dân tộc Việt Nam.</p>
 <br><br>
-<p style="position: absolute;
-          left: 20px;
-          top: 200px;
-          font-size: 30px;
-          color: #fa2519;
-          font-family: Dancing Script;">Theo quan niệm của người Việt Nam, ngày Tết đầu xuân là ngày đoàn tụ, đoàn viên. Hàng năm mỗi khi Tết đến, người Việt Nam có tục lệ dù làm bất cứ nghề gì, ở bất cứ nơi đâu đều mong được trở về sum họp dưới mái ấm gia đình, được sống lại với những kỷ niệm đầy ắp yêu thương của tuổi thơ yêu dấu. “Về quê ăn Tết”, đó không phải là một khái niệm thông thường đi hay về, mà là một cuộc hành hương về với cội nguồn.</p>
+<p style="left: 20px; top: 200px;" class="NoiDungChucTet">Theo quan niệm của người Việt Nam, ngày Tết đầu xuân là ngày đoàn tụ, đoàn viên. Hàng năm mỗi khi Tết đến, người Việt Nam có tục lệ dù làm bất cứ nghề gì, ở bất cứ nơi đâu đều mong được trở về sum họp dưới mái ấm gia đình, được sống lại với những kỷ niệm đầy ắp yêu thương của tuổi thơ yêu dấu. “Về quê ăn Tết”, đó không phải là một khái niệm thông thường đi hay về, mà là một cuộc hành hương về với cội nguồn.</p>
 </div>
    <div style="height: 1000px;
                top: 100%;
