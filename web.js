@@ -1,3 +1,4 @@
+// ========== HÀM THỜI GIAN ĐẾM NGƯỢC ========= //
 function ScriptJava() {
   function getIdsElement(h) {
    return document.getElementById(h)
@@ -15,7 +16,7 @@ getIdsElement("Js3").innerText=`${phut}`;
 getIdsElement("Js4").innerText=`${giay}`;
 }
 setInterval(ScriptJava, 1000);
-// Hiệu ứng JavaScript
+// ======== HIỆU ỨNG MOUSEOVER VÀ MOUSEOUT CHO 4 THẺ DIV ====== //
 document.querySelectorAll("#X").forEach(h =>{
   h.addEventListener("mouseover", function(){
 this.style.transform="rotate(3deg) scale(1.04)";
