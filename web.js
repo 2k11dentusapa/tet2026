@@ -1,8 +1,8 @@
 // ========== HÀM THỜI GIAN ĐẾM NGƯỢC ========= //
-function ScriptJava() {
-  function getIdsElement(h) {
+ function getIdsElement(h) {
    return document.getElementById(h)
   }
+function ScriptJava() {
 const timeCurrent= new Date();
 const timeTet= new Date("2026-02-17 00:00:00");
 const timeRemaining= timeTet - timeCurrent;
@@ -18,15 +18,22 @@ getIdsElement("Js4").innerText=`${giay}`;
 setInterval(ScriptJava, 1000);
 // ======== HIỆU ỨNG MOUSEOVER VÀ MOUSEOUT CHO 4 THẺ DIV ====== //
 document.querySelectorAll("#X").forEach(h =>{
+    const dx= h.style;
   h.addEventListener("mouseover", function(){
-this.style.transform="rotate(3deg) scale(1.04)";
-                  this.style.filter="brightness(1.01)";
-                  this.style.transition="transform 0.35s";
-                  this.style.boxShadow="0 12px 24px rgba(0, 0, 0, 0.32)";
+dx.transform="rotate(3deg) scale(1.04)";
+                  dx.filter="brightness(1.01)";
+                  dx.transition="transform 0.35s";
+                  dx.boxShadow="0 12px 24px rgba(0, 0, 0, 0.32)";
 });
 h.addEventListener("mouseout", function() {
-  this.style.transform="rotate(0deg) scale(1.00)"; 
-                 this.style.filter="brightness(1.00)";
-                 this.style.boxShadow="0 8px 16px rgba(0, 0, 0, 0.3)";
+  dx.transform="rotate(0deg) scale(1.00)"; 
+                 dx.filter="brightness(1.00)";
+                 dx.boxShadow="0 8px 16px rgba(0, 0, 0, 0.3)";
 });
 });
+// ======== VÔ HIỆU HÓA COPY ======== //
+function Disablet(event) {
+  event.preventDefault();
+}
+getIdsElement("noidung1").addEventListener("copy", Disablet);
+getIdsElement("noidung2").addEventListener("copy", Disablet);
