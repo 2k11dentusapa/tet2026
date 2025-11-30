@@ -15,7 +15,7 @@
                  display: flex;
                  justify-content: center;
                  border: solid 7px #fed241;
-                 border-radius: 20px;" }
+                 border-radius: 20px;
 }
 /* ================  TIÊU ĐỀ ĐẾM NGƯỢC TẾT ========== */
 .countp {
@@ -48,5 +48,5 @@
             position: absolute;
             font-size: 30px;
             color: #fa2519;
-            font-family: Dancing Script;"
+            font-family: 'Dancing Script';
 }
