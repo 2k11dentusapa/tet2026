@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html lang="vi-VN">
+  <head>
+    <title>Đếm ngược đến Tết 2026!!!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="background.css">
+   </head>
+   <body>
+         <nav style="background-color: #ba0000; top: 0; left: 0; width: 100%; height: 70px; z-index: 9999; position: fixed;">
+        <ul style="list-style: none; display: flex;">
+            <li><button id="list" class="btn" style="left: 1%;   width: 140px;" onclick="window.location.href='index.html'">
+             <b><span class="naps">🏠TRANG CHỦ</span></b>
+            </button></li>
+            <li>
+              <button id="list" class="btn" style="left: 15%;   width: 180px;" onclick="window.location.href='https://www.google.com/search?sca_esv=c1e0efabc0246387&sxsrf=AE3TifM-oFf_pAn9d1c5xITBg3VFEWTWQQ:1764508567300&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MQRJc_t_TQjwHYrzlkIauOKiWCnruNfHTRmzt0RxosbrDBINlHVqKQ0Tj195YdccZ30OSPTylf24wdKgP17HD4UfQ02Lj6WREBT-Z3YgC3uSFy82WL-BcI_h2-smQGURl_0v3DM&q=blog+v%E1%BB%81+t%E1%BA%BFt&sa=X&ved=2ahUKEwjsle3S-pmRAxURqFYBHYcrJSIQtKgLegQIFhAB&cshid=1764508643991118&biw=1280&bih=593&dpr=1.5'">
+             <b><span class="naps">📜BLOG VỀ TẾT</span></b>
+            </button>
+            </li>
+            <li>
+              <button id="list" class="btn" style="left: 33%; width: 200PX;" onclick="window.location.href='https://www.google.com/search?sca_esv=8589ff96c128bd89&sxsrf=AE3TifPLBJriV9TaKPC3gr-ql-XfPbglvg:1764586960014&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QC7R-cNAfMC9cw_UOraF-43a4p_T_Dv4UYr_IAsRjOGD7JP15gaX3B-SdSdqUs1ikkpV_K2I0lBWCidSDRQidSLk0wpyOCjBHIj_gbpAowyVFGNn6&q=c%C3%A1c+tr%C3%B2+ch%C6%A1i+d%C3%A2n+gian+ng%C3%A0y+t%E1%BA%BFt&sa=X&ved=2ahUKEwjl57TXnpyRAxVFffUHHcmAEIwQtKgLegQIFBAB&biw=1280&bih=593&dpr=1.5'">
+             <b><span class="naps">🎮TRÒ CHƠI DÂN GIAN</span></b>
+            </button>
+            </li>
+            <li>
+              <button id="list" class="btn" style="left: 52%; width: 150px;" onclick="window.location.href='2k11dentusapa.github.io/tet2026/music.html'">
+             <b><span class="naps">🎵NHẠC TẾT</span></b>
+            </button>
+            </li>
+            <li>
+            <button id="list" class="btn" style="left: 67%; width: 180px;" onclick="window.location.href='2k11dentusapa.github.io/tet2026/truyen-cuoi.html'">
+             <b><span class="naps">📖TRUYỆN CƯỜI</span></b>
+            </button>
+            </li>
+        </ul>
+    </nav>
+    <div style="position: relative; height: 130px; width: 1000px; background-color: #21d436; top: 170px; left: 120px; border-radius: 20px;">
+     <b><p class="countp" style="left: 20PX;">*TRUYỆN CƯỜI DÂN GIAN VIỆT NAM*</p></b>
+   </div>
+    <div style="display:flex; width: 1100px; height: 900px; background-color: rgba(1, 1, 1, 0); position: relative; border: solid 8px #f8dcba; background-color: #f8dcba; border-radius: 12px; top: 343px; left: 20px;">
+
+</div>
+    <script src="web.js"></script>
+   </body>
+
+  </html>
+
+
