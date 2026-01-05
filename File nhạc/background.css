@@ -18,6 +18,8 @@
             font-size: 30px;
             color: #fa2519;
             font-family: 'Dancing Script';
+            top: 750px;
+            left: 120px;
 }
 .btn {
   filter: brightness(1.05);
