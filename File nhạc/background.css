@@ -4,17 +4,6 @@
   background-position: center;
   background-attachment: fixed;
                         }
-.csscount {background: linear-gradient(to bottom right, #e61937, #fe5500);
-                 width: 150px;
-                 height: 225px;
-                 position: absolute;
-                 top: 363px;
-                 left: 930px;
-                 display: flex;
-                 justify-content: center;
-                 border: solid 7px #fed241;
-                 border-radius: 20px;
-                 }
 .countp {
               color: #ebf121;
               font-size: 47px;
@@ -23,18 +12,6 @@
               position: absolute;
               top: 0px;
               font-family: 'Dancing Script';
-}
-.showTimeValue {font-family: 'Dancing Script';
-                font-size: 48px;
-                color: #fafafa;
-}
-.underShowTimeValue {
-                font-family: 'Dancing Script';
-                font-size: 55px;
-                color: #fafafa;
-                position: absolute;
-                top: 50px;
-                left: 30px;
 }
 .NoiDungChucTet {
             position: absolute;
