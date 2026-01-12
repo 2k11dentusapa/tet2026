@@ -4,17 +4,6 @@
   background-position: center;
   background-attachment: fixed;
                         }
-.csscount {background: linear-gradient(to bottom right, #e61937, #fe5500);
-                 width: 150px;
-                 height: 225px;
-                 position: absolute;
-                 top: 363px;
-                 left: 930px;
-                 display: flex;
-                 justify-content: center;
-                 border: solid 7px #fed241;
-                 border-radius: 20px;
-                 }
 .countp {
               color: #ebf121;
               font-size: 47px;
@@ -22,25 +11,16 @@
               margin: 35px;
               position: absolute;
               top: 0px;
+              left: 250px;
               font-family: 'Dancing Script';
-}
-.showTimeValue {font-family: 'Dancing Script';
-                font-size: 48px;
-                color: #fafafa;
-}
-.underShowTimeValue {
-                font-family: 'Dancing Script';
-                font-size: 55px;
-                color: #fafafa;
-                position: absolute;
-                top: 50px;
-                left: 30px;
 }
 .NoiDungChucTet {
             position: absolute;
             font-size: 30px;
             color: #fa2519;
             font-family: 'Dancing Script';
+            top: 750px;
+            left: 120px;
 }
 .btn {
   filter: brightness(1.05);
@@ -60,4 +40,44 @@
 .chuyenngaytet {
   line-height: 40px;
  font-size: 42px;
+}
+.YoutubeIframe {
+  top: 270px;
+  left: 200px;
+  position: relative;
+}
+.Tenbaihat {
+  position: absolute;
+  font-size: 62px;
+  color: #fa2519;
+  font-family: 'Dancing Script';
+  top: 0px;
+  left: 120px;
+}
+.Tenbaihat:hover {
+  transform: scale(1.07);
+  transition: transform 0.28s;
+}
+.Divforcontent {
+  display:flex;
+  width: 1100px;
+  height: 1900px;
+  position: relative;
+  border: solid 8px #f8dcba;
+  background-color: #f8dcba;
+  border-radius: 12px;
+  top: 343px;
+  left: 20px;
+}
+#sort {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 11px;
+  font-size: 17px;
+  background-color: #f44e4e;
+  color: #f1f836;
+  font-family: 'Arial';
 }
