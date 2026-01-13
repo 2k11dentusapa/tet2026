@@ -4,6 +4,17 @@
   background-position: center;
   background-attachment: fixed;
                         }
+.csscount {background: linear-gradient(to bottom right, #e61937, #fe5500);
+                 width: 150px;
+                 height: 225px;
+                 position: absolute;
+                 top: 363px;
+                 left: 930px;
+                 display: flex;
+                 justify-content: center;
+                 border: solid 7px #fed241;
+                 border-radius: 20px;
+                 }
 .showTimeValue {font-family: 'Dancing Script';
                 font-size: 48px;
                 color: #fafafa;
