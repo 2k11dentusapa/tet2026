@@ -19,15 +19,7 @@
      getIdsElement("Js3").innerText = `${phut}`;
      getIdsElement("Js4").innerText = `${giay}`;
  }
-if ( ngay == 0 && gio == 0 && phut == 0 && giay == 0) {
-     getIdsElement("Js1").innerText = `${0}`;
-     getIdsElement("Js2").innerText = `${0}`;
-     getIdsElement("Js3").innerText = `${0}`;
-     getIdsElement("Js4").innerText = `${0}`;
-}
-else {
  setInterval(ScriptJava, 1000);
-}
  document.querySelectorAll("#X").forEach(h => {
      const dx = h.style;
      h.addEventListener("mouseover", function() {
