@@ -19,7 +19,10 @@
      getIdsElement("Js3").innerText = `${phut}`;
      getIdsElement("Js4").innerText = `${giay}`;
  }
- setInterval(ScriptJava, 1000);
+ getIdsElement("Js1").innerText = `${0}`;
+     getIdsElement("Js2").innerText = `${0}`;
+     getIdsElement("Js3").innerText = `${0}`;
+     getIdsElement("Js4").innerText = `${0}`;
  document.querySelectorAll("#X").forEach(h => {
      const dx = h.style;
      h.addEventListener("mouseover", function() {
